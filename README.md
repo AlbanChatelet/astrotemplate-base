@@ -1,5 +1,8 @@
 # Astro Starter Kit: Basics
 
+lien GitHub : https://github.com/AlbanChatelet/astrotemplate-base
+lien netlify : https://quiet-dango-c029b4.netlify.app/
+
 ```sh
 npm create astro@latest -- --template basics
 ```

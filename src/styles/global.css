@@ -21,6 +21,25 @@ h1 {
   color:#0d0950
 }
 
+a {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color:#3b35aa
+}
+
+p {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color:#750023
+}
+li {
+  margin: 1rem 0;
+  font-size: 1rem;
+  color:#750023
+}
+
+
+
 /* Styles de la navigation */
 
 .hamburger {
