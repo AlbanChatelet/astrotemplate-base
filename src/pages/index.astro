@@ -2,9 +2,12 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Greeting from '../components/Greeting';
 const pageTitle = "Page d'accueil";
+import { Image } from 'astro:assets';
+import myImage from '../assets/astroworld.webp'; // Image est en 1600x900
 ---
 <BaseLayout pageTitle={pageTitle}>
   <h2>Bienvenue sur Astroworld</h2>
   <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
-
+  <Image src={myImage} alt="La description de mon image." />
 </BaseLayout>
+
